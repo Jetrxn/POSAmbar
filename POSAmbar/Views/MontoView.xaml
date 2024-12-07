@@ -1,0 +1,30 @@
+
+
+<Page
+    x:Class="POSAmbar.Views.MontoView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:POSAmbar.Views">
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Monto de apertura"
+                   FontSize="24"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,20" />
+        <TextBox x:Name="MontoTextBox"
+                 PlaceholderText="Ingrese el monto"
+                 Width="200"
+                 Margin="0,0,0,20"
+                 InputScope="Number" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Content="Botón 1" Grid.Column="0" HorizontalAlignment="Center" Margin="10" />
+            <Button Content="Botón 2" Grid.Column="1" HorizontalAlignment="Center" Margin="10"/>
+            <Button Content="Botón 3" Grid.Column="2" HorizontalAlignment="Center" Margin="10"/>
+        </Grid>
+    </StackPanel>
+</Page>

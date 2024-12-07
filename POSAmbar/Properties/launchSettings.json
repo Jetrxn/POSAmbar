@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "POSAmbar (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "POSAmbar (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
